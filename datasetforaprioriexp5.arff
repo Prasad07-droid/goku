@@ -1,0 +1,19 @@
+@relation retail_store 
+
+@attribute bread {yes,no} 
+@attribute milk {yes,no} 
+@attribute cheese {yes,no} 
+@attribute apples {yes,no} 
+@attribute bananas {yes,no} 
+@attribute chocolate {yes,no} 
+
+@data 
+
+yes,no,no,yes,no,yes 
+yes,yes,no,no,yes,no 
+no,yes,yes,yes,no,no 
+yes,yes,yes,no,yes,no 
+no,no,yes,no,no,yes 
+yes,no,no,yes,yes,yes 
+no,yes,no,yes,yes,no 
+yes,yes,no,no,no,no
