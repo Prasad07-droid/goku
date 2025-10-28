@@ -1,0 +1,92 @@
+<mxfile host="embed.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="diagram-1" name="Page-1">
+    <mxGraphModel dx="1029" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Item_ID&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Item_name&lt;br&gt;Category&lt;br&gt;Price&lt;br&gt;cuisine&lt;br&gt;is_veg&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Item" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Customer_ID&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Name&lt;br&gt;Gender&lt;br&gt;Age&lt;br&gt;Phone_no&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="700" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Employee_ID&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Emp_name&lt;br&gt;Role&lt;br&gt;Experience&lt;br&gt;Shift&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;table_ID&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Table_Type&lt;br&gt;Seats&lt;br&gt;Section&lt;br&gt;Availability&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="700" y="480" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="700" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Date_ID&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Day_name&lt;br&gt;is_weekend&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="780" y="280" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Date" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;table style=&quot;width: 100%; border-collapse: collapse; font-size: 12px;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Item_ID&lt;/td&gt;&lt;td style=&quot;text-align: right;&quot;&gt;(FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Customer_ID&lt;/td&gt;&lt;td style=&quot;text-align: right;&quot;&gt;(FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Employee_ID&lt;/td&gt;&lt;td style=&quot;text-align: right;&quot;&gt;(FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;table_ID&lt;/td&gt;&lt;td style=&quot;text-align: right;&quot;&gt;(FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left;&quot;&gt;Date_ID&lt;/td&gt;&lt;td style=&quot;text-align: right;&quot;&gt;(FK)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
+          <mxGeometry x="380" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Order fact table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="12" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="292" as="sourcePoint" />
+            <mxPoint x="220" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="292" />
+              <mxPoint x="300" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="12" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="292" as="sourcePoint" />
+            <mxPoint x="700" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="292" />
+              <mxPoint x="640" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="12" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="220" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="340" />
+              <mxPoint x="300" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="12" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="364" as="sourcePoint" />
+            <mxPoint x="700" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="364" />
+              <mxPoint x="640" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="11" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="12" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

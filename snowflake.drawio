@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="diagram-id-1" name="Page-1">
+    <mxGraphModel dx="1158" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Role_ID&lt;/u&gt; (PK)&lt;br&gt;Role_Description" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); text-align: left;&quot;&gt;Shift_ID&lt;/u&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); text-align: left;&quot;&gt; (PK)&lt;/span&gt;&lt;/div&gt;Shift_Type" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Type_ID&lt;/u&gt; (Pk)&lt;br&gt;Type_description" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="520" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Section_ID&lt;/u&gt; (PK)&lt;br&gt;Section_name" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Employee_ID&lt;/u&gt;&lt;br&gt;(PK)&lt;br&gt;Emp_name&lt;br&gt;Role_ID (FK)&lt;br&gt;Experience&lt;br&gt;Shift_ID (FK)" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Table_ID&lt;/u&gt; (PK)&lt;br&gt;Type_ID (FK)&lt;br&gt;Seats&lt;br&gt;Section_ID (FK)&lt;br&gt;Availability" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="260" y="600" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;Item_Id (FK)&lt;br&gt;Customer_ID (FK)&lt;br&gt;Employee_ID (FK)&lt;br&gt;Table_ID (FK)&lt;br&gt;Date_Id (FK)" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Item_ID&lt;/u&gt; (PK)&lt;br&gt;Item_name&lt;br&gt;Category_ID (FK)&lt;br&gt;Price&lt;br&gt;Cuisine_ID(FK)&lt;br&gt;is_veg" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Customer_ID&amp;nbsp;&lt;/u&gt;(Pk)&lt;br&gt;Name&lt;br&gt;Gender_ID (FK)&lt;br&gt;Age" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="480" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Date_ID&lt;/u&gt; (PK)&lt;br&gt;Date&lt;br&gt;Day_name&lt;br&gt;is_weekend" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="720" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Category_ID&lt;/u&gt; (Pk)&lt;br&gt;Category_name" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Cuisine_ID&lt;/u&gt; (PK)&lt;br&gt;Cuisine_name" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="280" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;Gender_ID&lt;/u&gt; (PK)&lt;br&gt;Gender_Type" style="shape=rectangle;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=4;spacingTop=4;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="560" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="6" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="6" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="8" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="7" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="7" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="8" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="8" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="9" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="9" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="8" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="10" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" source="8" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-26" value="&#xa;&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Order Fact Table&lt;/b&gt;&#xa;&#xa;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-27" value="&lt;b&gt;Customer&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-28" value="&lt;b&gt;Item&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-29" value="&lt;b&gt;Category&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-31" value="&lt;b&gt;Cuisine&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-32" value="&lt;b&gt;Gender&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-34" value="&lt;b&gt;Date&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-35" value="&lt;b&gt;Table&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-36" value="&lt;b&gt;Section&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-37" value="&lt;b&gt;Type&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-38" value="&lt;div&gt;&lt;b&gt;Shift&lt;/b&gt;&lt;/div&gt;&lt;u style=&quot;text-align: left;&quot;&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/u&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-39" value="&lt;b&gt;Role&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fae7pCA4_kYvmtFXOzL-40" value="&lt;b&gt;Employee&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
